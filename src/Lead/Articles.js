@@ -35,12 +35,12 @@ export default class Articles extends Component {
                   <p className="credits">
                     Image is from Sandra at HerCreativeStudio.com
                   </p>
-                  <span className="content">
+                  <p className="content">
                     {Data.articles[0][i].content1}
                     <br />
                     <br />
                     {Data.articles[0][i].original}
-                  </span>
+                  </p>
                 </section>
               ) : (
                 <section className="articlePage">

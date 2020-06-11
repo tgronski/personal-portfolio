@@ -19,7 +19,6 @@ export default class App extends Component{
       <span>
       <Route exact path='/' component={()=><Nav pageWrapId={"page-wrap"} outerContainerId={"App"}/>}/>
       <Route path='/home' component={Nav}/>
-      <Route path= "/tech" component={Nav} />
       <Route path= "/leadership" component={Nav} />
       <Route path= "/code" component={Nav} />
       <Route path= "/about" component={Nav} />

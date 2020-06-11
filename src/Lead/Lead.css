@@ -1,39 +1,17 @@
-.leadQuote{
-    font-size: 24px;
-    text-align: center;
-    padding: 2%;
-    color: #00245E;
-    background-color: rgb(229, 229, 250);
-    font-family: 'Playfair Display', serif;
-   
-    
-}
+
 .leadPage{
-    display: block;
+    display: flex;
     width: 100%;
     background:white;
-    left: 0;
+    margin: 2% auto;
+    justify-content: center;
+    text-align: center;
+}
 
-   
+.articles>b:hover{
+    color: #295BAB
 }
-.leadNotes, .articles{
-    margin: 1.5%;
-   
-}
-.articles{
-    display: inline-block;
-    margin-bottom: 0;
 
-}
-.leadPage{
-   display: flex;
-   align-content: center;
-   justify-content: center;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-  
-}
 .contain{
 display: block;
 

@@ -31,9 +31,7 @@ export default class Nav extends Component {
 
   render() {
     return (
-      <MediaQuery minDeviceWidth={800}>
-        {matches =>
-          matches ? (
+      
             <span className="background-color">
               <nav role="banner">
                 <span className="mainNav">
@@ -67,63 +65,12 @@ export default class Nav extends Component {
                       >
                         Leadership
                       </Link>
-                      {this.state.showLead ? (
-                        <ul
-                          id="nav-leader"
-                          onMouseOver={this.handleLead}
-                          onMouseLeave={this.handleUnhover}
-                        >
-                          <li>
-                            <Link className="dropDownLink" to="/leadership/1">
-                              <h3>Management</h3>
-                            </Link>
-                          </li>
-                          <li>
-                            <Link className="dropDownLink" to="/leadership/2">
-                              <h3>Code Resources</h3>
-                            </Link>
-                          </li>
-                        </ul>
-                      ) : null}
                     </li>
                   </ul>
                 </span>
               </nav>
             </span>
-          ) : (
-            <span className="background-color">
-              <nav role="banner">
-                <span className="mainNav">
-                  <FontAwesomeIcon
-                    className="burgerIcon"
-                    onClick={this.handleDropDown}
-                    icon={faBars}
-                  />
-                  {this.state.showDropDown ? (
-                    <ul className="navDropDownList">
-                      <li onClick={this.handleUnDrop}>
-                        <Link className="menu-item" to="/home">
-                          <h2 className="a">Home </h2>
-                        </Link>
-                      </li>
-                      <li onClick={this.handleUnDrop}>
-                        <Link className="menu-item" to="/code">
-                          <h2 className="a">Code</h2>
-                        </Link>
-                      </li>
-                      <li onClick={this.handleUnDrop}>
-                        <Link className="menu-item" to="/leadership">
-                          <h2 className="a">Leadership</h2>{" "}
-                        </Link>
-                      </li>
-                    </ul>
-                  ) : null}
-                </span>
-              </nav>
-            </span>
-          )
-        }
-      </MediaQuery>
+          
     );
   }
 }

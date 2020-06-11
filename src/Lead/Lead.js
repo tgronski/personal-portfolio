@@ -28,9 +28,7 @@ export default class Lead extends Component {
 
   render() {
     return (
-        <MediaQuery minDeviceWidth={700}>
-          {matches =>
-            matches ? (
+
               <section className="leadPage">
                 <span className="contain">
                   <br />
@@ -38,6 +36,9 @@ export default class Lead extends Component {
                   <section className="articles">
                     {this.state.image ? (
                       <Link to="/leadership/1">
+                                                <b>An Actionable Guide to Managing Introverts</b>
+
+<br/>
                         <Img
                           src={leadership}
                           className="photo"
@@ -45,7 +46,6 @@ export default class Lead extends Component {
                           loader={<p className="articleImgLoader"></p>}
                         ></Img>{" "}
                         <br />
-                        <b>An Actionable Guide to Managing Introverts</b>
                       </Link>
                     ) : (
                       <p className="articleImgLoader"></p>
@@ -55,6 +55,8 @@ export default class Lead extends Component {
                   <section className="articles">
                     {this.state.image ? (
                       <Link to="/leadership/2">
+                                                <b>A Running List of Newbie Resources</b>
+<br/>
                         <Img
                           src={computersmall}
                           className="photo"
@@ -62,7 +64,6 @@ export default class Lead extends Component {
                           loader={<p className="articleImgLoader"></p>}
                         ></Img>{" "}
                         <br />
-                        <b>A Running List of Newbie Resources</b>
                       </Link>
                     ) : (
                       <p className="articleImgLoader"></p>
@@ -72,43 +73,7 @@ export default class Lead extends Component {
 
                 </span>
               </section>
-            ) : (
-              <section className="leadPage">
-                <span className="contain">
-                  <br />
-                  {/* <section className='leadNotes'> <p>I love studying and practicing different leadership styles. I am most passionate about constructive feedback, career coaching, and performance management. </p></section> */}
-                  <section>
-                    <Link to="/leadership/1">
-                      <Img
-                        src={leadership}
-                        className="photoSmall"
-                        alt="desktop"
-                        loader={<p className="articleImgLoader"></p>}
-                      ></Img>{" "}
-                      <br />
-                      <b>An Actionable Guide to Managing Introverts</b>
-                    </Link>
-                    <p>Aug 18, 2019 || 3 min Read</p>
-                  </section>
-                  <section className="articles">
-                    <Link to="/leadership/2">
-                      <Img
-                        src={computersmall}
-                        className="photoSmall"
-                        alt="computerdesk"
-                        loader={<p className="articleImgLoader"></p>}
-                      ></Img>{" "}
-                      <br />
-                      <b>A Running List of Newbie Resources</b>
-                    </Link>
-                    <p>Nov 3, 2019 || 3 min Read</p>
-                  </section>
-
-                </span>
-              </section>
-            )
-          }
-        </MediaQuery>
+           
     );
   }
 }

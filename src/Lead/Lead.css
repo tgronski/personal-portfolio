@@ -28,13 +28,9 @@ display: block;
 
 
 .photo{
-    width: 400px;
+    max-width: 400px;
     height: 300px;
     object-fit: cover;
     border: 6px solid #00245E
 }
 
-.photoSmall{
-    max-width: 300px;
-    max-height: 200px;
-}

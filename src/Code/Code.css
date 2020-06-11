@@ -25,7 +25,7 @@
     text-decoration: none;
 }
 .title:hover{
-    text-decoration: line-through;
+color:  #295BAB;
 }
 .LastSection{
     margin-bottom: 15%;
@@ -43,7 +43,6 @@ ul{
 .projectPage{   
     padding: 3%;
     height: auto;
-    margin-bottom: 5%;  
 
 }
 .project-detail{

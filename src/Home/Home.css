@@ -10,6 +10,11 @@
     justify-content: center; 
     
 }
+#bitmoji{
+    max-height: 105px;
+    margin-top: 1%;
+
+}
 .homePage{
     margin-bottom: 0;
     color: #00315E;
@@ -22,9 +27,11 @@
 .bio>a{
     color: black
 }
-.page{
-    height: 100vh;
-    overflow: visible;
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .welcome{

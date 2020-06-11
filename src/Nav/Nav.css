@@ -2,7 +2,7 @@
     display: inline-block;  
     margin-right: 1%;
     margin-left: 1%;
-    margin-top: 5%;
+
 }
 
 .mainNav>li,.nav-leader>li{
@@ -13,7 +13,7 @@
 
 
 .navMenu>li>.a{
-    font-size: 60px;
+    font-size: 22px;
     text-decoration: none;
     color: white;
 
@@ -28,8 +28,7 @@ banner>ul>li>.a{
 
 
 .navMenu>li>.a:hover, .dropDownLink>h3:hover{
-    text-decoration: line-through;
-    text-decoration-color: #00245E;
+    color: #295BAB;;
 
 }
 

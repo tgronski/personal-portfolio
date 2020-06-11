@@ -41,21 +41,6 @@ export default class Nav extends Component {
                         Home
                       </Link>
                     </li>
-                    <li>
-                      <span className="a" id="noline">
-                        /
-                      </span>
-                    </li>
-                    <li>
-                      <Link to="/code" className="a">
-                        Code
-                      </Link>
-                    </li>
-                    <li>
-                      <span className="a" id="noline">
-                        /
-                      </span>
-                    </li>
 
                     <li>
                       <Link
@@ -63,7 +48,7 @@ export default class Nav extends Component {
                         onMouseEnter={this.handleLead}
                         className="a"
                       >
-                        Leadership
+                        Writing Samples
                       </Link>
                     </li>
                   </ul>

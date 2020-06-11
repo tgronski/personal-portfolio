@@ -5,7 +5,6 @@
 
 }
 footer{
-   position: fixed;
    bottom: 0;
    width: 100%;
    background: white;
@@ -18,10 +17,10 @@ footer{
 
 }
 .social, a:link,a:visited{
- color: #002D5E;
+ color: #00245E;
 }
 a:hover{
-    color: black;
+    color: #295BAB;
 }
 .socialIcons{
     margin-top: 2% ;

@@ -20,7 +20,7 @@ export default class App extends Component{
       <Route exact path='/' component={()=><Nav pageWrapId={"page-wrap"} outerContainerId={"App"}/>}/>
       <Route path='/home' component={Nav}/>
       <Route path= "/leadership" component={Nav} />
-      <Route path= "/code" component={Nav} />
+      {/* <Route path= "/code" component={Nav} /> */}
       <Route path= "/about" component={Nav} />
       </span>
     )
@@ -38,7 +38,7 @@ export default class App extends Component{
       ))}
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
-      <Route exact path= "/code" component={()=><Code/>} />
+      {/* <Route exact path= "/code" component={()=><Code/>} /> */}
 
       {['/leadership/:article'].map(path =>(
         <Route 

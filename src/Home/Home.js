@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import Main from "../Main/Main";
 import About from "../About/About";
+import Store from "../About/Store";
+import Learn from "../Main/Learn";
 
 export default class Home extends Component {
   render() {
@@ -10,17 +12,14 @@ export default class Home extends Component {
       <section className="page">
         <section className="homePage">
           <p className="bio">
-            {" "}
-            <i className="welcome"> Welcome! </i>
-            <br />
-            Hi, I'm Tess Gronski. I am a Bay Area developer with one year of
-            full stack Javascript experience. I also have business experience in
-            finance, people leadership, and technical project management. <Link to="/about">Click here</Link> to read
-            more about my coding journey!
+            Hi there! My name is Tess. I am a web developer based in the Bay Area. I graduated from Bloc/Thinkful's Full Stack Coding Bootcamp in May 2020. 
           </p>
         </section>
+       
         <Main />
         <About />
+        <Store/>
+        <Learn/>
       </section>
     );
   }

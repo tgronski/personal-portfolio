@@ -1,8 +1,7 @@
 .container{
     text-align: center;
     width: 100vw;
-    height: auto;
-    padding: 2%; 
+
 }
 
 .side>p{
@@ -12,17 +11,16 @@
     text-align: left;
 }
 
-.img-banner>p{
-    display: inline-block;
-}
-
 .img-banner{
-
-   height: 350px;
-   white-space: nowrap;
-   width: 100%;
- 
+    display: flex;
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    justify-content: space-evenly;
+    padding: 50px
 }
+
+
 .img-banner-mobile{
 
     height: 350px;
@@ -44,19 +42,18 @@
       }
 
 .photo-style1>Img,.photo-style2>Img,.photo-style3>Img{
-   height: 300px ;
-   width: 400px;
-   padding: 2%;
-   
+   height: 250px ;
+   width: 350px;
+   border: solid 4px #B05C27;
+   border-radius: 2%;
    
 }
 .mainImgLoader{
     margin:0;
     height: 300px;
     width: 300px;
-    background-color: rgb(1, 1, 114); 
+    background-color: #B05C27; 
     z-index: 1;
 }
-
 
 

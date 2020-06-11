@@ -41,15 +41,15 @@ function Learn() {
               <p className="learn-code">
                 <span role="img" aria-label="wave-emoji" className="wave">
                   👋
-                </span>{" "}
+                </span>{" "} Hi There!
                 I've been learning to <br /> code for: {DaysDiff} days
               </p>
 
-              <p className="quote">
+              {/* <p className="quote">
                 "The most dangerous phrase <br /> in the English language is,{" "}
                 <br /> 'We've always done it this way.'" <br />
                 -Grace Hopper
-              </p>
+              </p> */}
             </span>
           )
         }

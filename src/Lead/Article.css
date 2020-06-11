@@ -38,7 +38,7 @@
 }
 
 .backButton{
-    background-color:rgb(1, 1, 114);
+    background-color:#00245E;
     border-radius: 40px;
     border: 0;
     color: white;
@@ -73,7 +73,6 @@
 .content{
     padding: 0;
     margin: 0;
-    font-family: 'Source Code Pro', monospace;
 }
 .credits{
     color: gray; 

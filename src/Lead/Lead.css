@@ -2,7 +2,7 @@
     font-size: 24px;
     text-align: center;
     padding: 2%;
-    color: rgb(1, 1, 114);
+    color: #00245E;
     background-color: rgb(229, 229, 250);
     font-family: 'Playfair Display', serif;
    
@@ -42,7 +42,8 @@ display: block;
     margin:0;
     height: 300px;
     width: 400px;
-    background-color:rgb(1, 1, 114);
+    background-color: #00245E;
+    ;
 
    
 }
@@ -52,7 +53,7 @@ display: block;
     width: 400px;
     height: 300px;
     object-fit: cover;
-    border: 6px solid rgb(1, 1, 114)
+    border: 6px solid #00245E
 }
 
 .photoSmall{

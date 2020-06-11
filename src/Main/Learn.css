@@ -1,7 +1,6 @@
 .learn-code{
     font-size: 28px;
-    font-family: 'Playfair Display', serif;
-    color: rgb(157, 155, 155);
+    color:#0041AB;
     margin-top:6%
     
 }
@@ -38,8 +37,7 @@
 }
 .quote{
     font-size: 34px;
-    font-family: 'Playfair Display', serif;
-    background: rgb(1, 1, 114);
+    background: #00245E;
     color: white;
     padding: 20px;
     text-align: center

@@ -8,7 +8,8 @@
 
 }
 .networthphoto:hover,.winephoto:hover,.parkphoto:hover,.sustainablephoto:hover, .notephoto:hover{
-    border: 6px solid rgb(229, 229, 250);
+    border: 6px solid #295BAB;
+
 }
 
 .title{
@@ -37,19 +38,16 @@ ul{
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;    
-    font-family: 'Source Code Pro', monospace;
 
 }
 .projectPage{   
     padding: 3%;
     height: auto;
     margin-bottom: 5%;  
-    background-color: rgb(229, 229, 250);
 
 }
 .project-detail{
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
 }
 .projectList{
     padding: 0;
@@ -73,7 +71,6 @@ ul{
     margin-right: auto;
     margin-left:auto;
     flex-direction: column;
-    font-family: 'Source Code Pro', monospace;
 }
 .second-section{
     background-color: white;

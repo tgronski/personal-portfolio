@@ -10,7 +10,7 @@ import MediaQuery from "react-responsive";
 class Main extends React.Component {
   render() {
     return (
-        <MediaQuery minDeviceWidth={700}>
+        <MediaQuery minDeviceWidth={1250}>
           {matches =>
             matches ? (
               <section className="container">
@@ -26,7 +26,7 @@ class Main extends React.Component {
                     <Img src={oceanbeachsmall} alt="ocean beach" />
                   </span>
                 </section>
-                <Learn />
+                {/* <Learn /> */}
               </section>
             ) : (
               <section className="container">
@@ -42,7 +42,7 @@ class Main extends React.Component {
                     <Img src={oceanbeachsmall} alt="ocean beach" />
                   </span>
                 </section>
-                <Learn />
+                {/* <Learn /> */}
               </section>
             )
           }

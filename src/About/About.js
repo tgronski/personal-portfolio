@@ -11,7 +11,6 @@ class About extends React.Component {
        <br/>
        <br/>
        <section className="About-description">
-       <img src={PersonalBrand} className='personal-logo'alt='personal-logo'/> 
         <section className='contact'>
         <i className="About-me"> Let's Connect: </i>
         <p>Email me at <br/>tessgronski@gmail.com</p>

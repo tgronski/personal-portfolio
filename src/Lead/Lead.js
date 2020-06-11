@@ -34,41 +34,46 @@ export default class Lead extends Component {
                   <br />
                   {/* <section className='leadNotes'> <p>I love studying and practicing different leadership styles. I am most passionate about constructive feedback, career coaching, and performance management. </p></section> */}
                   <section className="articles">
-                    {this.state.image ? (
-                      <Link to="/leadership/1">
-                                                <b>An Actionable Guide to Managing Introverts</b>
+                  <Link to="/leadership/1">
 
+                  <b>An Actionable Guide to Managing Introverts</b>
+                  </Link>
 <br/>
+<p>Aug 18, 2019 || 3 min Read</p>
+                    {this.state.image ? (
+
                         <Img
                           src={leadership}
                           className="photo"
                           alt="desktop"
                           loader={<p className="articleImgLoader"></p>}
-                        ></Img>{" "}
-                        <br />
-                      </Link>
-                    ) : (
+                        ></Img>)
+                 
+                     : (
                       <p className="articleImgLoader"></p>
-                    )}
-                    <p>Aug 18, 2019 || 3 min Read</p>
+                    )
+                  }
                   </section>
                   <section className="articles">
+                    <br/>
+                  <Link to="/leadership/2">
+
+                  <b>A Running List of Newbie Resources</b>
+                  <br/>
+
+                  </Link>
+                  <p>Nov 3, 2019 || 3 min Read</p>
+
                     {this.state.image ? (
-                      <Link to="/leadership/2">
-                                                <b>A Running List of Newbie Resources</b>
-<br/>
                         <Img
                           src={computersmall}
                           className="photo"
                           alt="computerdesk"
                           loader={<p className="articleImgLoader"></p>}
-                        ></Img>{" "}
-                        <br />
-                      </Link>
+                        ></Img>
                     ) : (
                       <p className="articleImgLoader"></p>
                     )}
-                    <p>Nov 3, 2019 || 3 min Read</p>
                   </section>
 
                 </span>

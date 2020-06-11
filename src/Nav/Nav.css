@@ -18,6 +18,13 @@
     color: white;
 
 }
+.navMenu>li>.a:active{
+    font-size: 22px;
+    text-decoration: none;
+    color: #0041AB;
+
+}
+
 
 
 banner>ul>li>.a{

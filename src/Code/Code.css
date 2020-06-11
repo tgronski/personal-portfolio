@@ -4,7 +4,7 @@
     height: 100px;
     background-color: white;
     object-fit: cover;
-    border: 6px solid rgb(1, 1, 114)
+    border: 6px solid #00245E
 
 }
 .networthphoto:hover,.winephoto:hover,.parkphoto:hover,.sustainablephoto:hover, .notephoto:hover{
@@ -13,14 +13,14 @@
 }
 
 .title{
-    color:black;
+    color:#00245E;
     font-size: 20px;
     font-family: 'Playfair Display', sans-serif;
     text-decoration: none;
 }
 
 .description>a{
-    color: black;
+    color: #00245E;
     
     text-decoration: none;
 }
@@ -73,14 +73,13 @@ ul{
 }
 .second-section{
     background-color: white;
-    height: 375px
 }
 .arrow-down {
     width: 0; 
     height: 0; 
     border-left: 20px solid transparent;
     border-right: 20px solid transparent; 
-    border-top: 20px solid rgb(229, 229, 250);
+    border-top: 20px solid #0041AB;
     z-index: 1;
     margin-top: 5px;
     margin-left: auto;

@@ -14,20 +14,21 @@ export default class Nav extends Component {
       showDropDown: false
     };
   }
-  handleLead = () => {
-    this.setState({ showLead: true });
-  };
-  handleUnhover = () => {
-    this.setState({ showLead: false });
-  };
-  handleDropDown = () => {
-    if (this.state.showDropDown === false) {
-      this.setState({ showDropDown: true });
-    } else this.setState({ showDropDown: false });
-  };
-  handleUnDrop = () => {
-    this.setState({ showDropDown: false });
-  };
+  // handleLead = () => {
+  //   this.setState({ showLead: true });
+  // };
+  // handleUnhover = () => {
+  //   this.setState({ showLead: false });
+  // };
+  // handleDropDown = () => {
+  //   if (this.state.showDropDown === false) {
+  //     this.setState({ showDropDown: true });
+  //   } else this.setState({ showDropDown: false });
+  // };
+  // handleUnDrop = () => {
+  //   this.setState({ showDropDown: false });
+  // };
+
 
   render() {
     return (
@@ -45,7 +46,6 @@ export default class Nav extends Component {
                     <li>
                       <Link
                         to="/leadership"
-                        onMouseEnter={this.handleLead}
                         className="a"
                       >
                         Writing Samples

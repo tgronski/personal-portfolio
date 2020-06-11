@@ -113,7 +113,7 @@ export default class Code extends Component {
                       <div className="arrow-down"></div>
                     ) : null}
                     <span className="project-detail">
-                      This full stack project helps users track their networth
+                      As a former stock broker & finance manager, I am passionate about empowering people to feel confident managing their money. This full stack project helps users track their networth
                       over time <br /> <br /> The PostgreSQL data is stored on
                       Heroku, and the app is deployed using Zeit.
                       <ul className="projectList">
@@ -186,7 +186,7 @@ export default class Code extends Component {
                       <div className="arrow-down"></div>
                     ) : null}
                     <span className="project-detail">
-                      This was one of my first projects using React. Users can
+                     Users can
                       add new folders and notes to the notetaking app. They can
                       also delete old notes.{" "}
                       <ul className="projectList">
@@ -220,8 +220,7 @@ export default class Code extends Component {
                       <div className="arrow-down"></div>
                     ) : null}
                     <span className="project-detail">
-                      This was my first experience implementing data from
-                      multiple APIs. Users can search for their state or a state
+                      Users can search for their state or a state
                       they want to travel to. Then, they will be provided with a
                       description of National Parks in the state, the 3-day
                       forecast in each park, and nearby restaurants and
@@ -252,7 +251,7 @@ export default class Code extends Component {
                       <div className="arrow-down"></div>
                     ) : null}
                     <span className="project-detail">
-                      This was one of my first projects. I have a personal
+                      I have a personal
                       interest in studying the wine industry, so I created a
                       wine quiz to test wine industry knowledge.
                       <ul className="projectList">
@@ -271,7 +270,7 @@ export default class Code extends Component {
                           <a href="https://networth-client.now.sh" rel="noopener noreferrer"  target="_blank">
                             <h3>Fisave</h3>
                           </a>
-                          This full stack project helps users track their networth over time{" "}
+                          As a former stock broker & finance manager, I am passionate about empowering people to feel confident managing their money. This full stack project helps users track their networth over time{" "}
                           <br /> <br /> The PostgreSQL data is stored on Heroku, and the app
                           is deployed using Zeit.
                           <br /> <br />
@@ -327,7 +326,7 @@ export default class Code extends Component {
                           <a href="https://noteful-app-pi-seven.now.sh" rel="noopener noreferrer" target="_blank">
                             <h3>Note Taking App</h3>
                           </a>
-                          This was one of my first projects using React. Users can add new
+                          Users can add new
                           folders and notes to the notetaking app. They can also delete old
                           notes. <br /> <br />
                           <ul className="projectList">
@@ -351,7 +350,7 @@ export default class Code extends Component {
                           <a href="https://tcgronk.github.io/outdoorApp/" rel="noopener noreferrer" target="_blank">
                             <h3>National Park Trip Planner</h3>
                           </a>
-                          This was my first experience implementing data from multiple APIs.
+                          
                           Users can search for their state or a state they want to travel
                           to. Then, they will be provided with a description of National
                           Parks in the state, the 3-day forecast in each park, and nearby
@@ -373,7 +372,7 @@ export default class Code extends Component {
                           <a href="https://tcgronk.github.io/Quiz-App/" target="_blank" rel="noopener noreferrer" >
                             <h3>Wine Industry Quiz</h3>
                           </a>
-                          This was one of my first projects. I have a personal interest in
+                          I have a personal interest in
                           studying the wine industry, so I created a wine quiz to test wine
                           industry knowledge.
                           <br />
@@ -497,8 +496,7 @@ export default class Code extends Component {
                     <b className="title">External API</b>
                     <br/>
                     <span className="project-detail">
-                      This was my first experience implementing data from
-                      multiple APIs. Users can search for their state or a state
+                      Users can search for their state or a state
                       they want to travel to. Then, they will be provided with a
                       description of National Parks in the state, the 3-day
                       forecast in each park, and nearby restaurants and
@@ -522,7 +520,7 @@ export default class Code extends Component {
                     <b className="title">Quiz App</b>
                     <br/>
                     <span className="project-detail">
-                      This was one of my first projects. I have a personal
+                      I have a personal
                       interest in studying the wine industry, so I created a
                       wine quiz to test wine industry knowledge.
                       <ul className="projectList">

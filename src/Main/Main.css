@@ -11,7 +11,7 @@
     text-align: left;
 }
 
-.img-banner{
+/* .img-banner{
     display: flex;
     width: 90%;
     margin-left: auto; 
@@ -41,8 +41,8 @@
         background-color: #295BAB;
         outline: 1px solid #0041AB;
         border-radius: 10px;
-      }
-
+      } */
+/* 
 .photo-style1>Img,.photo-style2>Img,.photo-style3>Img{
    height: 250px ;
    width: 350px;
@@ -50,14 +50,21 @@
    border-radius: 2%;
    margin: 0 3% 
    
+} */
+.photo-style2>Img{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    object-fit: fill
 }
-.mainImgLoader{
+
+/* .mainImgLoader{
     margin:0;
     height: 300px;
     width: 300px;
     background-color: #B05C27; 
     z-index: 1;
-}
+} */
 
 
 @media only screen and (min-width: 1350px) {

@@ -22,7 +22,7 @@ export default class Home extends Component {
         </section>
        <Code/>
        <About />
-        <Main />
+        {/* <Main /> */}
         {/* <Store/>
         <Learn/> */}
       </section>

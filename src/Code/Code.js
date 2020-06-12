@@ -6,19 +6,64 @@ import noteful from "./note-icon.png";
 import fisave from "./fisave.png";
 import MediaQuery from "react-responsive";
 import sustainability from "./monstrera.png";
+import $ from "jquery";
 
 export default class Code extends Component {
 
+  handleAll=()=>{
+    $("#0").removeClass('hidden');
+    $("#1").removeClass('hidden');
+    $("#2").removeClass('hidden');
+    $("#3").removeClass('hidden');
+    $("#4").removeClass('hidden');
+
+  }
+  handleFullStack=()=>{
+    $("#0").removeClass('hidden');
+    $("#1").removeClass('hidden');
+    $("#2").removeClass('hidden');
+    $("#3").removeClass('hidden');
+    $("#4").removeClass('hidden');
+    $('#1').addClass("hidden");
+    $('#0').addClass("hidden");
+  }
+  handleD3=()=>{
+    $("#0").removeClass('hidden');
+    $("#1").removeClass('hidden');
+    $("#2").removeClass('hidden');
+    $("#3").removeClass('hidden');
+    $("#4").removeClass('hidden');
+    $('#1').addClass("hidden");
+    $('#0').addClass("hidden");
+    $('#2').addClass("hidden");
+    $('#3').addClass("hidden");
+  }
+  handleJQuery=()=>{
+    $("#0").removeClass('hidden');
+    $("#1").removeClass('hidden');
+    $("#2").removeClass('hidden');
+    $("#3").removeClass('hidden');
+    $("#4").removeClass('hidden');
+    $('#2').addClass("hidden");
+    $('#3').addClass("hidden");
+    $('#4').addClass("hidden");
+  }
   render() {
     return (
 
               <section className="projects">
                 <span className='Home-title'>
                 <h2>Check out my Projects!</h2>
-
-                {/* <h4>Javascript | React.js | D3.js | jQuery | Node.js | Express.js | PostgreSQL</h4>  */}
+                <span className="Home-nav">
+                <button className="Home-button" onClick={()=>this.handleAll()}>All</button>
+                <button className="Home-button" onClick={()=>this.handleFullStack()}>Full Stack</button>
+                <button className="Home-button" onClick={()=>this.handleD3()}>D3.js</button>
+                <button className="Home-button" onClick={()=>this.handleJQuery()}>jQuery</button>
+                
                 </span>
-                <section className='Home-project'>
+                <br/>
+                </span>
+                <section className='Home-project' id='4'>
                     <section>
                     <img
                       src={fisave}
@@ -68,7 +113,7 @@ export default class Code extends Component {
                     </span>
                   </section>
                 </section>
-                <section className='Home-project'>
+                <section className='Home-project' id='3'>
                   
                 <section>
                     <img
@@ -88,7 +133,7 @@ export default class Code extends Component {
  rel="noopener noreferrer" 
 >Demo</a></section>
                     </section>
-                  <section className="description">
+                  <section className="description" >
                     <b className="title">Eco-Database</b>
                     <br/>
                     <span className="project-detail">
@@ -119,7 +164,7 @@ export default class Code extends Component {
                     </span>
                   </section>
                 </section>
-                <section className='Home-project'>
+                <section className='Home-project' id='2'>
 
                 <section>
                     <img src={noteful} className="notephoto" alt="note-app" />
@@ -172,7 +217,7 @@ rel="noopener noreferrer"
                     </span>
                   </section>
                 </section>
-                <section className='Home-project'>
+                <section className='Home-project' id='1'>
                 <section>
                     <img src={ParkApp} className="parkphoto" alt="quiz-app" />
                     <section className='Home-links'>
@@ -225,7 +270,7 @@ rel="noopener noreferrer"
                     </span>
                   </section>
                 </section>
-                <section className='Home-project'>
+                <section className='Home-project' id='0'>
                 <section >
                     <img src={quizapp} className="winephoto" alt="quiz-app" />
                     <section className='Home-links'>

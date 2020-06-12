@@ -14,7 +14,7 @@
 
 .title{
     color:#00245E;
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Playfair Display', sans-serif;
     text-decoration: none;
 }
@@ -24,27 +24,26 @@
     
     text-decoration: none;
 }
-.title:hover{
-color:  #295BAB;
-}
-.LastSection{
-    margin-bottom: 15%;
-}
+
+
 ul{
     padding: 0
 }
 .description{
-    max-width: 200px;
     margin-bottom: 5%;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;   
+    max-width: 600px 
+
 
 }
-.projectPage{   
-    padding: 3%;
-    height: auto;
 
+.Home-title{
+    background-color: #295BAB;
+    font-size: 26px;
+    margin-bottom: 2%
 }
+
 .project-detail{
     text-align: center;
 }
@@ -55,22 +54,14 @@ ul{
 .projects{
     background: white;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 2%;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    
  }
 
-.project-detail-large{
-    width:80%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 0px;
-    padding: 10px;
-    text-align: center;
-    margin-right: auto;
-    margin-left:auto;
-    flex-direction: column;
-}
+
 .second-section{
     background-color: white;
 }
@@ -85,26 +76,34 @@ ul{
     margin-left: auto;
     margin-right: auto;
   }
-@media only screen and (max-width: 799px) {
-    .projects{
-        flex-direction: column;
-    }
+.Home-small-links{
+    display: inline-block;
+}
+.Home-links{
+    display: none
+}
+h3, h4{
+   color: #00245E
+}
+  @media only screen and (min-width: 900px) {
+
+    .Home-project{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0 auto;
 
 }
-
-
-@media only screen and (min-width: 800px) {
-    .projects{
-        flex-direction: row;
-    }
-.project-detail{
-    display: none;
+.Home-links{
+    display: inline-block;
 }
-
+.Home-small-links{
+    display:none;
 }
-
-@media only screen and (min-width: 400px) and (max-width:799px) {
-    .description{
-        width: 350px;
-    }
+.networthphoto,.winephoto,.parkphoto,.sustainablephoto, .notephoto{
+    width: 200px;
+    height: 150px;
+    margin-top: 12%;
+    margin-right: 5%
 }
+  }

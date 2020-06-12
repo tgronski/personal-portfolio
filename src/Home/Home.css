@@ -23,9 +23,11 @@
 .bio,.bio>a{
     text-decoration: none;
     font-size: 18px;
+
 }
-.bio>a{
-    color: black
+.bio{
+    text-align: center;
+
 }
 .intro{
     width: 100%;

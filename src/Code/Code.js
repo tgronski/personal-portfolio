@@ -4,7 +4,6 @@ import "./Code.css";
 import ParkApp from "./travel-icon.png";
 import noteful from "./note-icon.png";
 import fisave from "./fisave.png";
-import MediaQuery from "react-responsive";
 import sustainability from "./monstrera.png";
 import $ from "jquery";
 
@@ -39,6 +38,7 @@ export default class Code extends Component {
     $('#3').addClass("hidden");
   }
   handleJQuery=()=>{
+   
     $("#0").removeClass('hidden');
     $("#1").removeClass('hidden');
     $("#2").removeClass('hidden');

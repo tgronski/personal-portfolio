@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import bigsursmall from "./bigsursmall.jpeg";
-import citysmall from "./citylarge.png";
+// import citysmall from "./citylarge.png";
 import oceanbeachsmall from "./oceanbeachsmall.jpeg";
 import Learn from "./Learn";
 import Img from "react-image";

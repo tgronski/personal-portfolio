@@ -16,7 +16,7 @@ export default class Home extends Component {
         </span>
         <section className="homePage">
           <p className="bio">
-            Hi there! My name is Tess. I'm a web developer based in the Bay Area. 
+            Hi there! My name is Tess. I'm a full stack web developer based in the Bay Area. 
             I love learning new technologies and going to tech meetups (virtually, for now)! Right now I'm learning to design data visualizations with D3.js.
           </p>
         </section>

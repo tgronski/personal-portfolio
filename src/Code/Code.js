@@ -172,14 +172,24 @@ rel="noopener noreferrer"
                     </span>
                   </section>
                 </section>
+                <section className='Home-project'>
                 <section>
-                  <a
+                    <img src={ParkApp} className="parkphoto" alt="quiz-app" />
+                    <section className='Home-links'>
+                    <a
                     target="_blank"
                     href="https://github.com/tcgronk/outdoorApp"
                     rel="noopener noreferrer" 
-                  >
-                    <img src={ParkApp} className="parkphoto" alt="quiz-app" />
-                  </a>{" "}
+                  >Github
+                  </a><br/>
+                  <a
+                    target="_blank"
+                    href="https://tcgronk.github.io/outdoorApp/"
+                    rel="noopener noreferrer" 
+                  >Demo
+                  </a>
+                  </section>
+                  </section>
                   <section className="description">
                     <b className="title">External API</b>
                     <br/>
@@ -192,18 +202,43 @@ rel="noopener noreferrer"
                       information, Weatherbit API for the forecast, and the
                       Foursquare API for the nearby attractions.{" "}
                       <ul className="projectList">
-                        Technologies Used:
+                        <h3>Technologies Used:</h3>
                         <li>Javascript</li>
                         <li>jQuery</li>
                         <li>HTML/CSS</li>
                       </ul>
+                      <section className='Home-small-links'>
+
+                      <a
+                    target="_blank"
+                    href="https://github.com/tcgronk/outdoorApp"
+                    rel="noopener noreferrer" 
+                  >Github
+                  </a>{" "}/{" "}
+                  <a
+                    target="_blank"
+                    href="https://tcgronk.github.io/outdoorApp/"
+                    rel="noopener noreferrer" 
+                  >Demo
+                  </a>
+                  </section>
                     </span>
                   </section>
                 </section>
-                <section className='LastSection'>
-                  <a href="https://github.com/tcgronk/Quiz-App" target="_blank" rel="noopener noreferrer" >
+                <section className='Home-project'>
+                <section >
                     <img src={quizapp} className="winephoto" alt="quiz-app" />
-                  </a>{" "}
+                    <section className='Home-links'>
+
+                    <a href="https://github.com/tcgronk/Quiz-App" target="_blank" rel="noopener noreferrer" >
+
+                  Github</a><br/>
+                  <a href="https://tcgronk.github.io/Quiz-App/" target="_blank" rel="noopener noreferrer" >
+
+Demo</a>
+</section>
+</section>
+
                   <section className="description">
                     <b className="title">Quiz App</b>
                     <br/>
@@ -212,11 +247,20 @@ rel="noopener noreferrer"
                       interest in studying the wine industry, so I created a
                       wine quiz to test wine industry knowledge.
                       <ul className="projectList">
-                        Technologies Used:
+                        <h3>Technologies Used:</h3>
                         <li>Javascript</li>
                         <li>jQuery</li>
                         <li>HTML/CSS</li>
                       </ul>
+                      <section className='Home-small-links'>
+
+<a href="https://github.com/tcgronk/Quiz-App" target="_blank" rel="noopener noreferrer" >
+
+Github</a>{" "}/{" "}
+<a href="https://tcgronk.github.io/Quiz-App/" target="_blank" rel="noopener noreferrer" >
+
+Demo</a>
+</section>
                     </span>
                   </section>
                 </section>

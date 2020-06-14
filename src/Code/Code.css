@@ -53,7 +53,9 @@ ul{
 }
 .Home-button{
     background-color: #00245E;
-    color: white
+    color: white;
+    border-radius: 5%;
+    border: 5px solid #0041AB;
 }
 
 .project-detail{

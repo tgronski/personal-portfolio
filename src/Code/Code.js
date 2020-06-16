@@ -87,7 +87,7 @@ export default class Code extends Component {
                     <span className="project-detail">
                         <br/>
                       As a former stock broker & finance manager, I am passionate about empowering people to manage their money with confidence. This full stack project helps users track their networth
-                      over time <br /> <br /> The PostgreSQL data is stored on
+                      over time. I developed protected endpoints to handle HTTP requests from the client to prevent unauthorized access to user’s finances.<br /> The PostgreSQL data is stored on
                       Heroku, and the app is deployed using Zeit.
                       <ul className="projectList">
                       <h3> Technologies Used:</h3>

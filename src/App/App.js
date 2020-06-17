@@ -17,25 +17,14 @@ export default class App extends Component{
     
     return(
       <span>
-      <Route  path='/' component={()=><Nav pageWrapId={"page-wrap"} outerContainerId={"App"}/>}/>
-      <Route path='/home' component={Nav}/>
-      <Route path= "/leadership" component={Nav} />
-      <Route path= "/about" component={Nav} />
+      <Route  path='/' component={()=><Nav/>}/>
+
       </span>
     )
   }
   renderMainPage(){
     return(
       <span>
-      {['/', '/home'].map(path => (
-                    <Route
-                        exact
-                        path={path}
-                        key={path}
-                        component={()=><Home/>}
-                    />
-      ))}
-
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
 
@@ -44,6 +33,7 @@ export default class App extends Component{
         exact
         path={path} key={path} component={Articles}/>
         ))}
+        <Route path='*' component={Home}/>
       </span>
     )
   }

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer'
 import Home from '../Home/Home'
@@ -25,6 +25,15 @@ export default class App extends Component{
   renderMainPage(){
     return(
       <span>
+      {['/', '/home'].map(path => (
+                    <Route
+                        exact
+                        path={path}
+                        key={path}
+                        component={()=><Home/>}
+                    />
+      ))}
+
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
 
@@ -33,7 +42,6 @@ export default class App extends Component{
         exact
         path={path} key={path} component={Articles}/>
         ))}
-        <Route path='*' component={Home}/>
       </span>
     )
   }

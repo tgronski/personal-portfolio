@@ -2,14 +2,15 @@ import leadership from './Lead/leadership.jpg'
 import computersmall from './Lead/computersmall.jpg'
 import React from 'react';
 
-let article1=<span>As a woman looking to break into tech (and a career changer), I am always on the lookout for helpful & motivating resources. There are so many inclusive, welcoming people and organizations in tech! Learning to code is already challenging. It's important to have tons of great resources you can turn to for help!
+let article1=<span>As a woman looking to break into tech (and a career changer), I am always on the lookout for helpful & motivating resources. 
+    Learning to code is already challenging. It's important to have tons of great resources you can turn to for help!
 <br/>
 <br/>
-Disclaimer: Not all of these resources are marketed as "inclusive." However, based on my research and/or personal experience, these resources are great for any under-represented individuals looking to break into tech!
+Disclaimer: Not all of these resources are marketed as "inclusive." However, based on my research and/or personal experience, these resources are great for any under-represented individuals looking to break into tech.
 <br/>
 <br/>
 Organizations:
-I highly recommend these two groups (remote & local) for under-represented people in tech!
+I highly recommend these groups (remote & local to the Bay Area).
 <br/>
 <ul className='articleList'>
 <li>-Tech Ladies</li>
@@ -50,12 +51,12 @@ Conferences:
 -Write/Speak/Code Conference is probably the most inclusive place on earth
 <br/>
 <br/>
-Twitter:
+{/* Twitter:
 <ul className='articleList'></ul>
 @WellPaidGeek
 <br/>
-@moshhamedani
-<ul/>
+@moshhamedani */}
+{/* <ul/> */}
 Do you have any suggestions for more code newbie resources? I'd love to add to my list!
 </span>
 

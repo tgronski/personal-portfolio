@@ -3,7 +3,7 @@ import computersmall from './Lead/computersmall.jpg'
 import React from 'react';
 
 let article1=<span>As a woman looking to break into tech (and a career changer), I am always on the lookout for helpful & motivating resources. 
-    Learning to code is already challenging. It's important to have tons of great resources you can turn to for help!
+    Learning to code is already challenging. It's important to have tons of great resources you can turn to for help.
 <br/>
 <br/>
 Disclaimer: Not all of these resources are marketed as "inclusive." However, based on my research and/or personal experience, these resources are great for any under-represented individuals looking to break into tech.

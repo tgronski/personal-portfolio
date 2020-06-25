@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "./CodingJourney.css";
+import Bio from './Bio.png'
 export default class CodingJourney extends Component {
   render() {
     return (
-      <section className="CodingJourney">
+       <section >
         <p className="CodingJourney-bio">
           <b className="CodingJourney-title">My Coding Journey:</b>
           <br />
+          <img className='CodingJourney-bio-image' src={Bio} alt='coder-woman'/>
           <br />
           My favorite class in college was Computer Science, and I've always
           gravitated towards roles that have analytical and technical
@@ -19,7 +21,7 @@ export default class CodingJourney extends Component {
           design, mobile-first design, testing with Mocha and Chai, deploying
           API servers with Node & Express, PostgreSQL, and more.{" "}
         </p>
-      </section>
+       </section>
     );
   }
 }

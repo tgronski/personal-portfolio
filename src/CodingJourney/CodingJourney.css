@@ -6,8 +6,27 @@ height: 70vh;
 .CodingJourney-bio{
     background-color: white;
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 5% 5%;
     color: rgb(1, 1, 114);
+}
+.CodingJourney-title{
+    text-align: center;
+}
+.CodingJourney-bio-image{
+    width: 280px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .CodingJourney-bio-image{
+    width: 400px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .CodingJourney-bio-image{
+    width: 500px;
+    }
 }

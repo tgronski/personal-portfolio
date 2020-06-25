@@ -119,11 +119,13 @@ export default class Code extends Component {
                 <section className='Home-project' id='3'>
                   
                 <section>
+                <Link to='/shopsustainably'>
                     <img
                       src={sustainability}
                       className="sustainablephoto"
                       alt="sustainable-app"
                     />
+                  </Link>
                     <section className='Home-links'>
                     <a
                     href="https://github.com/tcgronk/sustainability"

@@ -9,6 +9,7 @@ import './App.css';
 import Articles from '../Lead/Articles'
 import CodingJourney from '../CodingJourney/CodingJourney';
 import Fisave from '../Code/Fisave'
+import ShopSustainably from '../Code/ShopSustainably';
 
 
 export default class App extends Component{
@@ -37,6 +38,7 @@ export default class App extends Component{
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
       <Route exact path= "/fisave" component={()=><Fisave />} />
+      <Route exact path= "/shopsustainably" component={()=><ShopSustainably />} />
 
       {['/leadership/:article'].map(path =>(
         <Route 

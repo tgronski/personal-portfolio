@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import quizapp from "./wine-icon.png";
 import "./Code.css";
 import ParkApp from "./travel-icon.png";
@@ -65,11 +66,13 @@ export default class Code extends Component {
                 </span>
                 <section className='Home-project' id='4'>
                     <section>
+                    <Link to='/fisave'>
                     <img
                       src={fisave}
                       className="networthphoto"
                       alt="networth-app"
                     />
+                    </Link>
                     <section className='Home-links'>
                    <a
                     href="https://github.com/tcgronk/networth-client"

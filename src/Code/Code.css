@@ -126,3 +126,21 @@ h3, h4{
   .hidden{
     display: none;
 }
+
+.App-details{
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.mobile-app{
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+.desktop-app{
+    max-width: 600px;
+    margin: 2% auto;
+}

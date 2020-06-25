@@ -8,7 +8,7 @@ import Lead from '../Lead/Lead'
 import './App.css';
 import Articles from '../Lead/Articles'
 import CodingJourney from '../CodingJourney/CodingJourney';
-
+import Fisave from '../Code/Fisave'
 
 
 export default class App extends Component{
@@ -36,6 +36,7 @@ export default class App extends Component{
 
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
+      <Route exact path= "/fisave" component={()=><Fisave />} />
 
       {['/leadership/:article'].map(path =>(
         <Route 

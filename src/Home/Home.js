@@ -4,7 +4,7 @@ import Main from "../Main/Main";
 import About from "../About/About";
 import Store from "../About/Store";
 import Learn from "../Main/Learn";
-import Me from "./me.png"
+import Bio from "../CodingJourney/Bio.png"
 import Code from "../Code/Code";
 
 export default class Home extends Component {
@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
       <section className="page">
         <span className="intro">
-        <img id='bitmoji' src={Me} alt="bitmoji" />
+        <img id='bitmoji' src={Bio} alt="bitmoji" />
         </span>
         <section className="homePage">
           <p className="bio">

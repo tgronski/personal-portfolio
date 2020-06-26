@@ -7,6 +7,11 @@ import noteful from "./note-icon.png";
 import fisave from "./fisave.png";
 import sustainability from "./monstrera.png";
 import $ from "jquery";
+import Fisave from "./Fisave";
+import ShopSustainably from "./ShopSustainably";
+import Wine from './Wine'
+import Notes from './Notes'
+import Outdoor from "./Outdoor";
 
 export default class Code extends Component {
 
@@ -66,7 +71,8 @@ export default class Code extends Component {
                 </span>
                 <section className='Home-project' id='4'>
                     <section>
-                    <Link to='/fisave'>
+                      <Fisave/>
+                    {/* <Link to='/fisave'>
                     <img
                       src={fisave}
                       className="networthphoto"
@@ -114,12 +120,14 @@ export default class Code extends Component {
                     rel="noopener noreferrer" 
                   >Demo</a></section>
                     </span>
+                  </section> */}
                   </section>
                 </section>
-                <section className='Home-project' id='3'>
+                <section className='Home-project'className='App-background' id='3'>
                   
                 <section>
-                <Link to='/shopsustainably'>
+                  <ShopSustainably/>
+                {/* <Link to='/shopsustainably'>
                     <img
                       src={sustainability}
                       className="sustainablephoto"
@@ -166,12 +174,15 @@ export default class Code extends Component {
  target="_blank"
  rel="noopener noreferrer" 
 >Demo</a></section>
-                    </span>
+                    </span> */}
                   </section>
                 </section>
+               
                 <section className='Home-project' id='2'>
+                  <section>
+<Notes/>
+                {/* <section>
 
-                <section>
                     <img src={noteful} className="notephoto" alt="note-app" />
                     <section className='Home-links'>
 
@@ -188,8 +199,8 @@ export default class Code extends Component {
                   >Demo
                   </a>
                   </section>
-                  </section>
-                  <section className="description">
+                  </section> */}
+                  {/* <section className="description">
                     <b className="title">Note Taking</b>
                     <br/>
                     <span className="project-detail">
@@ -219,12 +230,14 @@ rel="noopener noreferrer"
 >Demo
 </a>
 </section>
-                    </span>
-                  </section>
+                    </span> */}
+                  {/* </section> */}
                 </section>
-                <section className='Home-project' id='1'>
+                </section>
+                <section className='Home-project' className='App-background' id='1'>
                 <section>
-                    <img src={ParkApp} className="parkphoto" alt="quiz-app" />
+                  <Outdoor/>
+                    {/* <img src={ParkApp} className="parkphoto" alt="quiz-app" />
                     <section className='Home-links'>
                     <a
                     target="_blank"
@@ -273,11 +286,13 @@ rel="noopener noreferrer"
                   </a>
                   </section>
                     </span>
-                  </section>
+                  </section> */}
+                </section>
                 </section>
                 <section className='Home-project' id='0'>
                 <section >
-                    <img src={quizapp} className="winephoto" alt="quiz-app" />
+                  <Wine/>
+                    {/* <img src={quizapp} className="winephoto" alt="quiz-app" />
                     <section className='Home-links'>
 
                     <a href="https://github.com/tcgronk/Quiz-App" target="_blank" rel="noopener noreferrer" >
@@ -290,6 +305,7 @@ Demo</a>
 </section>
 
                   <section className="description">
+                  
                     <b className="title">Quiz App</b>
                     <br/>
                     <span className="project-detail">
@@ -311,7 +327,7 @@ Github</a>{" "}/{" "}
 
 Demo</a>
 </section>
-                    </span>
+                    </span> */}
                   </section>
                 </section>
               </section>

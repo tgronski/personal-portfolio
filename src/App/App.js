@@ -37,8 +37,7 @@ export default class App extends Component{
 
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
-      <Route exact path= "/fisave" component={()=><Fisave />} />
-      <Route exact path= "/shopsustainably" component={()=><ShopSustainably />} />
+
 
       {['/leadership/:article'].map(path =>(
         <Route 

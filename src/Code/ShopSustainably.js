@@ -9,17 +9,7 @@ export default class ShopSustainably extends Component {
             
                         <h2 className='title-app'>Shop Sustainably: A Database of Sustainable Stores</h2>
 
-                                <section >
-                   <a
-                    href="https://github.com/tcgronk/sustainability"
-                    target="_blank"
-                    rel="noopener noreferrer" 
-                  >Github</a> <br/>
-                                     <a
-                    href="https://sustainability.now.sh"
-                    target="_blank"
-                    rel="noopener noreferrer" 
-                  >Demo</a></section>
+
             <div className='description-app'>
             <div className='second-description-app'>
             <h3>Project Notes</h3>
@@ -27,6 +17,17 @@ export default class ShopSustainably extends Component {
                       stores in a variety of categories all in one database. <br /> <br /> The
                       PostgreSQL data is stored on Heroku, and the app is
                       deployed using Zeit.</p>
+                      <section >
+                   <a
+                    href="https://github.com/tcgronk/sustainability"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                  >Github</a> {" "}/{" "}
+                                     <a
+                    href="https://sustainability.now.sh"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                  >Demo</a></section>
             </div>
             <img className='mobile-app' src={mobile} alt='mobile-app'/>
             </div>

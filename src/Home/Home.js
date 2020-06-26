@@ -17,7 +17,7 @@ export default class Home extends Component {
         <section className="homePage">
           <p className="bio">
             Hi there! My name is Tess. I'm a full stack web developer based in the Bay Area. 
-            I love learning new technologies and going to tech meetups! Right now I'm learning to design data visualizations with D3.js. I also have non-tech experience in technical project management, finance, e-commerce, and leadership.
+            I love learning new technologies and going to tech meetups! Right now I'm learning to design data visualizations with D3.js. I also have experience in technical project management, finance, e-commerce, and leadership.
           </p>
         </section>
        <Code/>

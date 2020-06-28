@@ -27,12 +27,14 @@ export default class App extends Component{
     return(
       <span>
       {['/', '/home'].map(path => (
-        <Route path={path} component={() => { 
-     window.location.href = 'https://personal-portfolio-sigma.now.sh/home'; 
-     return null;
-}}/>
+                    <Route
+                        exact
+                        path={path}
+                        key={path}
+                        component={()=><Home/>}
+                    />
       ))}
-{/* 
+
       <Route exact path= "/about" component={()=><CodingJourney/>} />
       <Route exact path= "/leadership" component={()=><Lead />} />
 
@@ -41,7 +43,7 @@ export default class App extends Component{
         <Route 
         exact
         path={path} key={path} component={Articles}/>
-        ))} */}
+        ))}
       </span>
     )
   }
@@ -59,7 +61,7 @@ export default class App extends Component{
     <div className="App" >
       <header className="App-header">
       
-      {/* <nav>{this.renderNavRoutes()}</nav> */}
+      <nav>{this.renderNavRoutes()}</nav>
        
       </header>
       

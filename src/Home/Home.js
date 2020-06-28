@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import Main from "../Main/Main";
 import About from "../About/About";
-import Store from "../About/Store";
-import Learn from "../Main/Learn";
 import Bio from "../CodingJourney/Bio.png"
 import Code from "../Code/Code";
 
@@ -22,9 +19,6 @@ export default class Home extends Component {
         </section>
        <Code/>
        <About />
-        {/* <Main /> */}
-        {/* <Store/>
-        <Learn/> */}
       </section>
     );
   }

@@ -15,6 +15,7 @@ export default class Home extends Component {
       yoyo: true,
       repeatDelay: 0.5,
     });
+    gsap.to(".circle", { y: "+=6px", yoyo: true, repeat: -1, repeatDelay: 1 });
     gsap.to(".rightLeaf", {
       duration: 1,
       rotate: 15,

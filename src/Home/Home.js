@@ -34,12 +34,11 @@ export default class Home extends Component {
       repeatDelay: 0.5,
     });
 
-    gsap.to(".steam", {
-      y: "+=6px",
-      yoyo: true,
-      repeat: -1,
-      repeatDelay: 0.75,
-    });
+    gsap.to(".steam", {y: "+=6px",
+    yoyo:true,opacity: 0.5,
+      stagger: {
+        amount: 2},
+    repeat:-1, repeatDelay:0.75});
   }
   render() {
     return (

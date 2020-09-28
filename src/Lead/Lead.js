@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./Lead.css";
 import leadership from "./leadership.jpg";
+import hacktoberfest from "./hacktoberfest.jpg"
 import computersmall from "./computersmall.jpg";
 import { Link } from "react-router-dom";
 import Img from "react-image";
-import MediaQuery from "react-responsive";
 
 export default class Lead extends Component {
   constructor(props) {
@@ -33,6 +33,28 @@ export default class Lead extends Component {
                 <span className="contain">
                   <br />
                   {/* <section className='leadNotes'> <p>I love studying and practicing different leadership styles. I am most passionate about constructive feedback, career coaching, and performance management. </p></section> */}
+                  <section className="articles">
+                  <Link to="/leadership/3">
+
+                  <b>Beginners Guide to Hacktoberfest</b>
+                  </Link>
+<br/>
+<p>Sept 27, 2020 || 5 min Read</p>
+                    {this.state.image ? (
+
+                        <Img
+                          src={hacktoberfest}
+                          className="photo"
+                          alt="desktop"
+                          loader={<p className="articleImgLoader"></p>}
+                        ></Img>)
+                 
+                     : (
+                      <p className="articleImgLoader"></p>
+                    )
+                  }
+                  </section>
+                  <br/>
                   <section className="articles">
                   <Link to="/leadership/1">
 

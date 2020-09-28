@@ -6,7 +6,7 @@ import MediaQuery from "react-responsive";
 
 export default class Articles extends Component {
   render() {
-    for (let i = 0; i < Data.articles.length + 1; i++) {
+      for (let i = 0; i < 5; i++) {
       if (this.props.match.params.article === Data.articles[0][i].article) {
         return (
           <MediaQuery key={i} minDeviceWidth={1000}>

@@ -24,6 +24,9 @@ display: block;
 
    
 }
+.smallLink{
+    font-size: 16px !important
+}
 
 .photo{
     max-width: 300px;

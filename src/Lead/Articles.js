@@ -32,9 +32,6 @@ export default class Articles extends Component {
                   <div className="articlePhoto">
                     <img src={Data.articles[0][i].img} alt="article"></img>
                   </div>
-                  <p className="credits">
-                    Image is from Sandra at HerCreativeStudio.com
-                  </p>
                   <p className="content">
                     {Data.articles[0][i].content1}
                     <br />
@@ -64,9 +61,6 @@ export default class Articles extends Component {
                   <section className="articlePhotoSmall">
                     <img src={Data.articles[0][i].img} alt="article"></img>
                   </section>
-                  <p className="credits">
-                    Image is from Sandra at HerCreativeStudio.com
-                  </p>
                   <span className="content">
                     {Data.articles[0][i].content1}
                     <br />

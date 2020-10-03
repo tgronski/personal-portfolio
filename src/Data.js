@@ -151,7 +151,7 @@ let article3 = (
       React.js, and Microsoft's VS Code.{" "}
     </h3>
     <br />
-    <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> is a
+    <a class="smallLink"  href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> is a
     great time to get started with open source because there are so many
     projects that are welcoming new developers.
     <br />
@@ -162,17 +162,18 @@ let article3 = (
     />
     <ul className="articleList">
       <h3>Table of Contents</h3>
+      <br/>
       <li>
-        <a href="/leadership/3#keywords">Key words to help you get started</a>{" "}
-      </li>
+        <a className="smallLink"  href="/leadership/3#keywords">Key words to help you get started</a>{" "}
+      </li><br/><br/>
       <li>
-        <a href="/leadership/3#projects">Find an Open Source Project</a>
-      </li>
+        <a className="smallLink"  href="/leadership/3#projects">Find an Open Source Project</a>
+      </li><br/><br/>
       <li>
-        <a href="/leadership/3#gitpractice">Git practice for total beginners</a>
-      </li>
+        <a className="smallLink"  href="/leadership/3#gitpractice">Git practice for total beginners</a>
+      </li><br/><br/>
       <li>
-        <a href="/leadership/3#firstpr">
+        <a className="smallLink" href="/leadership/3#firstpr">
           Make your first Hacktoberfest Contribution
         </a>
       </li>
@@ -200,7 +201,7 @@ let article3 = (
     <p>
       For 2020, Hacktoberfest is requiring 4 open source contributions. Once you
       have found a repo you want to contribute to, make sure it meets the{" "}
-      <a href="https://hacktoberfest.digitalocean.com/details">
+      <a className="smallLink" href="https://hacktoberfest.digitalocean.com/details">
         quality standards
       </a>
       .

@@ -5,8 +5,8 @@ import hacktoberfest from "./Lead/hacktoberfest.jpg";
 import animations from "./Lead/animations.jpg";
 import protestorsfirststep from "./Lead/protestors-firststep.png";
 import React from "react";
-import code1 from "./Lead/code1.png"
-import code2 from "./Lead/code2.png"
+import code1 from "./Lead/code1.png";
+import code2 from "./Lead/code2.png";
 import Codepen from "react-codepen-embed";
 
 let article1 = (
@@ -67,12 +67,6 @@ let article1 = (
     -Write/Speak/Code Conference is probably the most inclusive place on earth
     <br />
     <br />
-    {/* Twitter:
-<ul className='articleList'></ul>
-@WellPaidGeek
-<br/>
-@moshhamedani */}
-    {/* <ul/> */}
     Do you have any suggestions for more code newbie resources? I'd love to add
     to my list!
   </span>
@@ -151,8 +145,10 @@ let article3 = (
       React.js, and Microsoft's VS Code.{" "}
     </h3>
     <br />
-    <a class="smallLink"  href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> is a
-    great time to get started with open source because there are so many
+    <a class="smallLink" href="https://hacktoberfest.digitalocean.com/">
+      Hacktoberfest
+    </a>{" "}
+    is a great time to get started with open source because there are so many
     projects that are welcoming new developers.
     <br />
     <br />
@@ -162,16 +158,28 @@ let article3 = (
     />
     <ul className="articleList">
       <h3>Table of Contents</h3>
-      <br/>
+      <br />
       <li>
-        <a className="smallLink"  href="/leadership/3#keywords">Key words to help you get started</a>{" "}
-      </li><br/><br/>
+        <a className="smallLink" href="/leadership/3#keywords">
+          Key words to help you get started
+        </a>{" "}
+      </li>
+      <br />
+      <br />
       <li>
-        <a className="smallLink"  href="/leadership/3#projects">Find an Open Source Project</a>
-      </li><br/><br/>
+        <a className="smallLink" href="/leadership/3#projects">
+          Find an Open Source Project
+        </a>
+      </li>
+      <br />
+      <br />
       <li>
-        <a className="smallLink"  href="/leadership/3#gitpractice">Git practice for total beginners</a>
-      </li><br/><br/>
+        <a className="smallLink" href="/leadership/3#gitpractice">
+          Git practice for total beginners
+        </a>
+      </li>
+      <br />
+      <br />
       <li>
         <a className="smallLink" href="/leadership/3#firstpr">
           Make your first Hacktoberfest Contribution
@@ -201,7 +209,10 @@ let article3 = (
     <p>
       For 2020, Hacktoberfest is requiring 4 open source contributions. Once you
       have found a repo you want to contribute to, make sure it meets the{" "}
-      <a className="smallLink" href="https://hacktoberfest.digitalocean.com/details">
+      <a
+        className="smallLink"
+        href="https://hacktoberfest.digitalocean.com/details"
+      >
         quality standards
       </a>
       .
@@ -466,7 +477,8 @@ let article4 = (
     <br />
     <br />
     <ul>
-    <img src={code1}/>      <br /><br />
+      <img src={code1} /> <br />
+      <br />
       <li>"gsap" refers to the GreenSock animation library</li>
       <br />
       <li>
@@ -487,8 +499,7 @@ let article4 = (
     Javascript tab:
     <br />
     <br />
-    <img src={code2}/>   
-
+    <img src={code2} />
     <br />
     <br />
     5) We want the movement to look a little bit more realistic. We'll slow it

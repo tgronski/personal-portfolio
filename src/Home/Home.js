@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Home.css";
 import About from "../About/About";
 import { gsap } from "gsap";
-// import Bio from "../CodingJourney/Bio.png"
 import Code from "../Code/Code";
 
 export default class Home extends Component {

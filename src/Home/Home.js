@@ -198,9 +198,7 @@ export default class Home extends Component {
           <p className="bio">
             Hi there! My name is Tess. I'm a full stack web developer based in
             the Bay Area. <br />
-            <br />I love learning new technologies and going to tech meetups!
-            Right now I'm self-teaching Java fundamentals and data
-            visualizations with D3.js. I also have experience in technical
+            <br />I love learning new technologies. I also have experience in technical
             project management, finance, e-commerce, and leadership.
           </p>
         </section>
